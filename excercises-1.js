@@ -24,7 +24,7 @@
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
 
-function [sum] (x,y){
+function sum(x,y){
   return x + y;
 };
 
@@ -34,7 +34,7 @@ function [sum] (x,y){
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
-function [avg] (x,y,z){
+function avg(x,y,z){
   return (x + y + z) / 3;
 };
 
@@ -45,7 +45,7 @@ function [avg] (x,y,z){
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-function [getLength] ("helicopter"){
+function getLength("helicopter"){
   return helicopter.length;
 };
 
@@ -57,7 +57,7 @@ function [getLength] ("helicopter"){
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
-function  [greaterThan] (x,y){
+function  greaterThan(x,y){
   if (x < y) {
     return true;
   }
@@ -73,7 +73,7 @@ function  [greaterThan] (x,y){
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-function [great] (x) {
+function great(x) {
   return "Hello," + x"!";
 };
 
@@ -90,11 +90,10 @@ function [great] (x) {
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
-function [madlib] (word1, word2, word3, word4){
+function madlib(word1, word2, word3, word4){
   return  word3 + word1 + word4 + "and" + word2 ;
 
 }
-
 
 
 
