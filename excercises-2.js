@@ -35,12 +35,20 @@ function detectVowel(input){
 // ---------------------
 // Write a function translate() that will translate a text into "rÃ¶varsprÃ¥ket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
 // ---------------------
-function translate(phrase){
-  if (phrase )
-    return 
-}
+
 function rovarspraket(phrase){
-    //...
+    var chars = phase.split('');
+    var outPhrase = [];
+
+    chars.forEach(function (char)) {
+      if (!isVowel (char) && char !=='') {
+        outPhrase.push(char + 'o' + char);
+      } else {
+        outPhrase.push(char);
+      }
+    });
+
+    return.outPhrase.join('');
 }
 
 
@@ -48,24 +56,31 @@ function rovarspraket(phrase){
 // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
 
-function reverse(){
-    //...
-}
+function reverse(string){
+  return string.split('').reverse().join();
+};
 
 // ---------------------
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
 // ---------------------
+var word = [];
 
 function findLongestWord(words){
-    //...
-}
+    if (words.length > word.length) {
+      word = words;
+    }
+};
 
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
-function filterLongWords(words, i){
-    //...
+function filterLongWords(words, i) {
+
+  var x = words.filter( function(words) {
+    return words.length > i;
+  });
+  return x;
 }
 
 // ---------------------
