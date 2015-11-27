@@ -1,5 +1,4 @@
-IWBAT 
+In this project, I used my understanding of JS as the time to solve simple functions, break down a simple problem
+and also understand what arrays are and their usages in coding. 
 
-Understand functions
-Understand how to break down a simple problem
-Understand what Arrays are
+I hope you enjoy ! 
